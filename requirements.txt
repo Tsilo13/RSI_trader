@@ -1,0 +1,6 @@
+backtesting==0.3.3
+pandas>=2.2
+numpy>=1.26
+matplotlib>=3.8
+python-dotenv>=1.0
+yfinance>=0.2        # optional: easiest way to grab daily OHLCV for tests
