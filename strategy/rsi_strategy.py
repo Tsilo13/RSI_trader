@@ -1,3 +1,12 @@
+"""
+calculate_rsi(prices, period) computes RSI from close prices.
+
+get_rsi_trading_signal(ticker) downloads 6 months of daily data, 
+computes RSI, and returns "BUY" only when RSI has just crossed up 
+through the oversold line; returns "SELL" only when RSI has just 
+crossed down through the overbought line; otherwise None.
+"""
+
 import pandas as pd
 import numpy as np
 import yfinance as yahoo_finance

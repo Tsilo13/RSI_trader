@@ -1,3 +1,14 @@
+"""
+Builds a small candidate universe (you’ll expand it).
+
+Filters by beta using get_high_beta_tickers.
+
+For each eligible ticker, gets an RSI signal.
+
+If there’s a signal, it budgets CAPITAL_PER_TRADE_DOLLARS, 
+computes share_quantity, and calls place_market_order (currently prints a mock).
+"""
+
 import math
 import yfinance as yahoo_finance
 

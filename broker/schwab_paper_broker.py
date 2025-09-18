@@ -1,3 +1,10 @@
+"""
+Stub that prints a mock order line. 
+It’s the seam where real 
+Schwab OAuth + order submission will go. 
+Naming is explicit (place_market_order).
+"""
+
 from config import SCHWAB_ACCOUNT_ID
 
 

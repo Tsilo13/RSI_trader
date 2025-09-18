@@ -1,3 +1,8 @@
+"""
+Function get_high_beta_tickers(candidate_tickers) pulls each ticker’s reported beta
+ via Yahoo and returns only those at/above your configured BETA_THRESHOLD.
+"""
+
 import yfinance as yahoo_finance
 from config import BETA_THRESHOLD
 

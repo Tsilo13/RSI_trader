@@ -1,3 +1,12 @@
+"""
+Central place for all knobs: 
+RSI parameters, 
+beta threshold, 
+per-trade capital, 
+fee/slippage placeholders, 
+and Schwab credentials.
+"""
+
 BETA_THRESHOLD = 1.2
 
 RSI_LOOKBACK_PERIOD = 14
